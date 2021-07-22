@@ -171,7 +171,8 @@
     position: relative;
   }
 
-  nav ul li a:hover{
+  nav ul li a:hover,
+  nav ul li a.active{
     color: var(--base-color);
     
   }
@@ -189,7 +190,8 @@
     transition: width 0.2s;
 
   }
-  nav ul li a:hover::after{
+  nav ul li a:hover::after,
+  nav ul li a.active::after{
     width: 100%;
   }
 
